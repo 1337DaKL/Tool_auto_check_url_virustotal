@@ -56,7 +56,7 @@ The script automatically ignores empty lines.
 Run:
 
 ```bash
-py script.py
+py ./tool.py
 ```
 
 API key formats:
@@ -140,6 +140,6 @@ If exceeded:
 
 ---
 
-## License
+## Author
 
-Released under the **MIT License**.
+ Code by **1337DaKL**.

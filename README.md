@@ -36,8 +36,7 @@ Designed for analysts who want speed, automation, and minimal hassle — the scr
 ### Install Dependencies
 ```bash
 py -m pip install vt-py
-
-
+```
 ## Preparing the Input
 
 Create an `input.txt` file in the same directory as the script:

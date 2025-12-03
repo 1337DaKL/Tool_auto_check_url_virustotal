@@ -18,6 +18,7 @@ def check_virustotal(API , url):
             return True
     except vt.error.APIError as e:
         print(f"LỖI API: {e}")
+        return False
     except Exception as e:
         print("LỖI KẾT NỐI hoặc LỖI KHÁC:")
         print(e)
@@ -131,4 +132,4 @@ if __name__ == "__main__":
                 file_out_results.write(fr.read())   
     print("===============KET THUC AUTO TOOL==============================")
     exit()
-# 23804a7b88aa86d3f1de229623f6db7a1bdb07dbd7f27e5ca3f8876e9c6c6593-df64d7ab2f2bfebd316094c20fc70cfa62339bb136691c5e5e851f72130bdddf-5b9f7e7b664be737ccc40daa9ff00da0f05b61a79645be981c08a486e0e6861a-28a2685c82940932bfe35357e34156fa07ab20cbc0acfc313e7920108f024318
+# 23804a7b88aa86d3f1de229623f6db7a1bdb07dbd7f27e5ca3f8876e9c6c6593-df64d7ab2f2bfebd316094c20fc70cfa62339bb136691c5e5e851f72130bdddf-5b9f7e7b664be737ccc40daa9ff00da0f05b61a79645be981c08a486e0e6861a-28a2685c82940932bfe35357e34156fa07ab20cbc0acfc313e7920108f024318-c3e748d995192d26f49104fbb004a8d7d104aacf5f0a4a9d8afc9f46f4efaeb0-8810bd58a8846d80ec4cd0213d885253e5d905f8469e46e94638f5cbf61c9e53-0be6240a7bb26e16048a9d98c23cd15d786729c15facf49b430e5784fcee2683-72986c39060bbd617197808217238b2628410173b9b572931cf27c13b0e95edb
